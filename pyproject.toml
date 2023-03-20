@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pitool"
+version = "0.1.0"
+description = "A collection of useful modules and scripts""
+authors = ["Ondřej Měkota <ondrej.mekota@me.com>"]
+homepage = "https://github.com/pixelneo/pitool"
+repository = "https://github.com/pixelneo/pitool"
+readme = "README.md"
+license = "MIT"
+include = [
+    "LICENSE.md",
+]
+classifiers = [
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
