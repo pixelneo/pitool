@@ -1,1 +1,1 @@
-from .memoize import memoize
+from .memoizer import memoize
